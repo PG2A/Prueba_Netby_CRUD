@@ -1,0 +1,17 @@
+G:\trabajo\netby\prueba\CrudBack.Dal\obj\Debug\net8.0\CrudBack.Dal.csproj.AssemblyReference.cache
+G:\trabajo\netby\prueba\CrudBack.Dal\obj\Debug\net8.0\CrudBack.Dal.GeneratedMSBuildEditorConfig.editorconfig
+G:\trabajo\netby\prueba\CrudBack.Dal\obj\Debug\net8.0\CrudBack.Dal.AssemblyInfoInputs.cache
+G:\trabajo\netby\prueba\CrudBack.Dal\obj\Debug\net8.0\CrudBack.Dal.AssemblyInfo.cs
+G:\trabajo\netby\prueba\CrudBack.Dal\obj\Debug\net8.0\CrudBack.Dal.csproj.CoreCompileInputs.cache
+G:\trabajo\netby\prueba\CrudBack.Dal\bin\Debug\net8.0\CrudBack.Dal.deps.json
+G:\trabajo\netby\prueba\CrudBack.Dal\bin\Debug\net8.0\CrudBack.Dal.runtimeconfig.json
+G:\trabajo\netby\prueba\CrudBack.Dal\bin\Debug\net8.0\CrudBack.Dal.dll
+G:\trabajo\netby\prueba\CrudBack.Dal\bin\Debug\net8.0\CrudBack.Dal.pdb
+G:\trabajo\netby\prueba\CrudBack.Dal\bin\Debug\net8.0\CrudBack.Models.dll
+G:\trabajo\netby\prueba\CrudBack.Dal\bin\Debug\net8.0\CrudBack.Models.pdb
+G:\trabajo\netby\prueba\CrudBack.Dal\obj\Debug\net8.0\CrudBack.91CA9786.Up2Date
+G:\trabajo\netby\prueba\CrudBack.Dal\obj\Debug\net8.0\CrudBack.Dal.dll
+G:\trabajo\netby\prueba\CrudBack.Dal\obj\Debug\net8.0\refint\CrudBack.Dal.dll
+G:\trabajo\netby\prueba\CrudBack.Dal\obj\Debug\net8.0\CrudBack.Dal.pdb
+G:\trabajo\netby\prueba\CrudBack.Dal\obj\Debug\net8.0\CrudBack.Dal.genruntimeconfig.cache
+G:\trabajo\netby\prueba\CrudBack.Dal\obj\Debug\net8.0\ref\CrudBack.Dal.dll

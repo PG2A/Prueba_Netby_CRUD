@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrudBack.API", "CrudBack.API\CrudBack.API.csproj", "{A0DB14CA-E28F-4E5C-B3D0-50EF59922185}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrudBack.Business", "CrudBack.Business\CrudBack.Business.csproj", "{770FF039-7CCC-44B0-8EFD-59350FD808E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrudBack.Models", "CrudBack.Models\CrudBack.Models.csproj", "{B50C2DEF-03D0-4079-BD8B-5732CD41B1B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrudBack.Dal", "CrudBack.Dal\CrudBack.Dal.csproj", "{1BD9C419-BBA4-4381-AFFA-EAD64F0B0ADB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0DB14CA-E28F-4E5C-B3D0-50EF59922185}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0DB14CA-E28F-4E5C-B3D0-50EF59922185}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0DB14CA-E28F-4E5C-B3D0-50EF59922185}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0DB14CA-E28F-4E5C-B3D0-50EF59922185}.Release|Any CPU.Build.0 = Release|Any CPU
+		{770FF039-7CCC-44B0-8EFD-59350FD808E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{770FF039-7CCC-44B0-8EFD-59350FD808E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{770FF039-7CCC-44B0-8EFD-59350FD808E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{770FF039-7CCC-44B0-8EFD-59350FD808E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B50C2DEF-03D0-4079-BD8B-5732CD41B1B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B50C2DEF-03D0-4079-BD8B-5732CD41B1B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B50C2DEF-03D0-4079-BD8B-5732CD41B1B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B50C2DEF-03D0-4079-BD8B-5732CD41B1B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BD9C419-BBA4-4381-AFFA-EAD64F0B0ADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BD9C419-BBA4-4381-AFFA-EAD64F0B0ADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BD9C419-BBA4-4381-AFFA-EAD64F0B0ADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BD9C419-BBA4-4381-AFFA-EAD64F0B0ADB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

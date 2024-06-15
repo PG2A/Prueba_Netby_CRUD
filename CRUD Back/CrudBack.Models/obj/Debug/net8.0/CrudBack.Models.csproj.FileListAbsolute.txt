@@ -1,0 +1,12 @@
+G:\trabajo\netby\prueba\CrudBack.Models\bin\Debug\net8.0\CrudBack.Models.deps.json
+G:\trabajo\netby\prueba\CrudBack.Models\bin\Debug\net8.0\CrudBack.Models.dll
+G:\trabajo\netby\prueba\CrudBack.Models\bin\Debug\net8.0\CrudBack.Models.pdb
+G:\trabajo\netby\prueba\CrudBack.Models\obj\Debug\net8.0\CrudBack.Models.csproj.AssemblyReference.cache
+G:\trabajo\netby\prueba\CrudBack.Models\obj\Debug\net8.0\CrudBack.Models.GeneratedMSBuildEditorConfig.editorconfig
+G:\trabajo\netby\prueba\CrudBack.Models\obj\Debug\net8.0\CrudBack.Models.AssemblyInfoInputs.cache
+G:\trabajo\netby\prueba\CrudBack.Models\obj\Debug\net8.0\CrudBack.Models.AssemblyInfo.cs
+G:\trabajo\netby\prueba\CrudBack.Models\obj\Debug\net8.0\CrudBack.Models.csproj.CoreCompileInputs.cache
+G:\trabajo\netby\prueba\CrudBack.Models\obj\Debug\net8.0\CrudBack.Models.dll
+G:\trabajo\netby\prueba\CrudBack.Models\obj\Debug\net8.0\refint\CrudBack.Models.dll
+G:\trabajo\netby\prueba\CrudBack.Models\obj\Debug\net8.0\CrudBack.Models.pdb
+G:\trabajo\netby\prueba\CrudBack.Models\obj\Debug\net8.0\ref\CrudBack.Models.dll
