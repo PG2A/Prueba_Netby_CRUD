@@ -20,8 +20,6 @@ import { LayoutService } from 'src/app/layout/service/app.layout.service';
 })
 export class LoginComponent {
 
-    valCheck: string[] = ['remember'];
-
     username!: string;
     password!: string;
 

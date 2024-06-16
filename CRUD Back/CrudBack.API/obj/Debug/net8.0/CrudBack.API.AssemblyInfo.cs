@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CrudBack.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2e5959d6402b36c4a4f744240848c02fa16eab8e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d8da312dd2b99a18ab16306d6b24ba2e71528a0d")]
 [assembly: System.Reflection.AssemblyProductAttribute("CrudBack.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CrudBack.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "G:\\trabajo\\netby\\Prueba\\CRUD Back\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A0DB14CA-E28F-4E5C-B3D0-50EF59922185}|CrudBack.API\\CrudBack.API.csproj|g:\\trabajo\\netby\\prueba\\crud back\\crudback.api\\controllers\\tareaspendientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0DB14CA-E28F-4E5C-B3D0-50EF59922185}|CrudBack.API\\CrudBack.API.csproj|solutionrelative:crudback.api\\controllers\\tareaspendientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{770FF039-7CCC-44B0-8EFD-59350FD808E1}|CrudBack.Business\\CrudBack.Business.csproj|g:\\trabajo\\netby\\prueba\\crud back\\crudback.business\\usuarios\\usuariosservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{770FF039-7CCC-44B0-8EFD-59350FD808E1}|CrudBack.Business\\CrudBack.Business.csproj|solutionrelative:crudback.business\\usuarios\\usuariosservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A0DB14CA-E28F-4E5C-B3D0-50EF59922185}|CrudBack.API\\CrudBack.API.csproj|g:\\trabajo\\netby\\prueba\\crud back\\crudback.api\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A0DB14CA-E28F-4E5C-B3D0-50EF59922185}|CrudBack.API\\CrudBack.API.csproj|solutionrelative:crudback.api\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0DB14CA-E28F-4E5C-B3D0-50EF59922185}|CrudBack.API\\CrudBack.API.csproj|g:\\trabajo\\netby\\prueba\\crud back\\crudback.api\\controllers\\tareaspendientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0DB14CA-E28F-4E5C-B3D0-50EF59922185}|CrudBack.API\\CrudBack.API.csproj|solutionrelative:crudback.api\\controllers\\tareaspendientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{770FF039-7CCC-44B0-8EFD-59350FD808E1}|CrudBack.Business\\CrudBack.Business.csproj|g:\\trabajo\\netby\\prueba\\crud back\\crudback.business\\tareaspendientes\\itareaspendientesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B50C2DEF-03D0-4079-BD8B-5732CD41B1B6}|CrudBack.Models\\CrudBack.Models.csproj|g:\\trabajo\\netby\\prueba\\crud back\\crudback.models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B50C2DEF-03D0-4079-BD8B-5732CD41B1B6}|CrudBack.Models\\CrudBack.Models.csproj|solutionrelative:crudback.models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{770FF039-7CCC-44B0-8EFD-59350FD808E1}|CrudBack.Business\\CrudBack.Business.csproj|g:\\trabajo\\netby\\prueba\\crud back\\crudback.business\\usuarios\\usuariosservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{770FF039-7CCC-44B0-8EFD-59350FD808E1}|CrudBack.Business\\CrudBack.Business.csproj|solutionrelative:crudback.business\\usuarios\\usuariosservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A0DB14CA-E28F-4E5C-B3D0-50EF59922185}|CrudBack.API\\CrudBack.API.csproj|g:\\trabajo\\netby\\prueba\\crud back\\crudback.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -73,8 +73,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 48,
-          "SelectedChildIndex": 2,
+          "DockedWidth": 230,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -92,27 +92,14 @@
               "RelativeDocumentMoniker": "CrudBack.API\\Controllers\\AuthenticationController.cs",
               "ToolTip": "G:\\trabajo\\netby\\Prueba\\CRUD Back\\CrudBack.API\\Controllers\\AuthenticationController.cs",
               "RelativeToolTip": "CrudBack.API\\Controllers\\AuthenticationController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAeAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-15T16:06:02.552Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ITareasPendientesService.cs",
-              "DocumentMoniker": "G:\\trabajo\\netby\\Prueba\\CRUD Back\\CrudBack.Business\\TareasPendientes\\ITareasPendientesService.cs",
-              "RelativeDocumentMoniker": "CrudBack.Business\\TareasPendientes\\ITareasPendientesService.cs",
-              "ToolTip": "G:\\trabajo\\netby\\Prueba\\CRUD Back\\CrudBack.Business\\TareasPendientes\\ITareasPendientesService.cs",
-              "RelativeToolTip": "CrudBack.Business\\TareasPendientes\\ITareasPendientesService.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAiwAwAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T14:37:59.75Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "TareasPendiente.cs",
               "DocumentMoniker": "G:\\trabajo\\netby\\Prueba\\CRUD Back\\CrudBack.Models\\TareasPendiente.cs",
               "RelativeDocumentMoniker": "CrudBack.Models\\TareasPendiente.cs",
@@ -120,12 +107,11 @@
               "RelativeToolTip": "CrudBack.Models\\TareasPendiente.cs",
               "ViewState": "AQIAAAoAAAAAAAAAAAAUwBMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T14:34:18.821Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-15T14:34:18.821Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "LoginDto.cs",
               "DocumentMoniker": "G:\\trabajo\\netby\\Prueba\\CRUD Back\\CrudBack.Models\\Dtos\\LoginDto.cs",
               "RelativeDocumentMoniker": "CrudBack.Models\\Dtos\\LoginDto.cs",
@@ -133,51 +119,11 @@
               "RelativeToolTip": "CrudBack.Models\\Dtos\\LoginDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T16:26:33.297Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-15T16:26:33.297Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "G:\\trabajo\\netby\\Prueba\\CRUD Back\\CrudBack.API\\Program.cs",
-              "RelativeDocumentMoniker": "CrudBack.API\\Program.cs",
-              "ToolTip": "G:\\trabajo\\netby\\Prueba\\CRUD Back\\CrudBack.API\\Program.cs",
-              "RelativeToolTip": "CrudBack.API\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T14:10:35.158Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "G:\\trabajo\\netby\\Prueba\\CRUD Back\\CrudBack.API\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "CrudBack.API\\Properties\\launchSettings.json",
-              "ToolTip": "G:\\trabajo\\netby\\Prueba\\CRUD Back\\CrudBack.API\\Properties\\launchSettings.json",
-              "RelativeToolTip": "CrudBack.API\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-15T22:00:50.287Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "G:\\trabajo\\netby\\Prueba\\CRUD Back\\CrudBack.Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "CrudBack.Models\\Usuario.cs",
-              "ToolTip": "G:\\trabajo\\netby\\Prueba\\CRUD Back\\CrudBack.Models\\Usuario.cs",
-              "RelativeToolTip": "CrudBack.Models\\Usuario.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T15:26:45.693Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "UsuariosServices.cs",
               "DocumentMoniker": "G:\\trabajo\\netby\\Prueba\\CRUD Back\\CrudBack.Business\\Usuarios\\UsuariosServices.cs",
               "RelativeDocumentMoniker": "CrudBack.Business\\Usuarios\\UsuariosServices.cs",
@@ -190,6 +136,54 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ITareasPendientesService.cs",
+              "DocumentMoniker": "G:\\trabajo\\netby\\Prueba\\CRUD Back\\CrudBack.Business\\TareasPendientes\\ITareasPendientesService.cs",
+              "RelativeDocumentMoniker": "CrudBack.Business\\TareasPendientes\\ITareasPendientesService.cs",
+              "ToolTip": "G:\\trabajo\\netby\\Prueba\\CRUD Back\\CrudBack.Business\\TareasPendientes\\ITareasPendientesService.cs",
+              "RelativeToolTip": "CrudBack.Business\\TareasPendientes\\ITareasPendientesService.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAiwAwAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T14:37:59.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\trabajo\\netby\\Prueba\\CRUD Back\\CrudBack.API\\Program.cs",
+              "RelativeDocumentMoniker": "CrudBack.API\\Program.cs",
+              "ToolTip": "G:\\trabajo\\netby\\Prueba\\CRUD Back\\CrudBack.API\\Program.cs",
+              "RelativeToolTip": "CrudBack.API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T14:10:35.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "G:\\trabajo\\netby\\Prueba\\CRUD Back\\CrudBack.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "CrudBack.API\\Properties\\launchSettings.json",
+              "ToolTip": "G:\\trabajo\\netby\\Prueba\\CRUD Back\\CrudBack.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "CrudBack.API\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-15T22:00:50.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "G:\\trabajo\\netby\\Prueba\\CRUD Back\\CrudBack.Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "CrudBack.Models\\Usuario.cs",
+              "ToolTip": "G:\\trabajo\\netby\\Prueba\\CRUD Back\\CrudBack.Models\\Usuario.cs",
+              "RelativeToolTip": "CrudBack.Models\\Usuario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T15:26:45.693Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 9,
               "Title": "appsettings.json",
               "DocumentMoniker": "G:\\trabajo\\netby\\Prueba\\CRUD Back\\CrudBack.API\\appsettings.json",
@@ -198,8 +192,7 @@
               "RelativeToolTip": "CrudBack.API\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABLAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-15T16:14:55.056Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-15T16:14:55.056Z"
             },
             {
               "$type": "Document",
@@ -211,8 +204,7 @@
               "RelativeToolTip": "CrudBack.Dal\\Repositories\\UsuarioRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T15:28:39.567Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-15T15:28:39.567Z"
             },
             {
               "$type": "Document",
@@ -224,8 +216,7 @@
               "RelativeToolTip": "CrudBack.Business\\Usuarios\\IUsuariosServices.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T15:51:10.748Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-15T15:51:10.748Z"
             },
             {
               "$type": "Document",
@@ -237,8 +228,7 @@
               "RelativeToolTip": "CrudBack.Dal\\DataContext\\PedroGutierrezContext.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAxwA4AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T15:22:47.629Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-15T15:22:47.629Z"
             },
             {
               "$type": "Document",
@@ -250,18 +240,17 @@
               "RelativeToolTip": "CrudBack.Dal\\Repositories\\IGenericRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T14:37:52.486Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-15T14:37:52.486Z"
             }
           ]
         },
         {
-          "DockedWidth": 352,
+          "DockedWidth": 170,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "TareasPendienteController.cs",
               "DocumentMoniker": "G:\\trabajo\\netby\\Prueba\\CRUD Back\\CrudBack.API\\Controllers\\TareasPendienteController.cs",
               "RelativeDocumentMoniker": "CrudBack.API\\Controllers\\TareasPendienteController.cs",
@@ -282,8 +271,7 @@
               "RelativeToolTip": "CrudBack.Business\\TareasPendientes\\TareasPendientesService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T14:38:19.615Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-15T14:38:19.615Z"
             },
             {
               "$type": "Document",
@@ -295,8 +283,7 @@
               "RelativeToolTip": "CrudBack.Dal\\Repositories\\TareasPendienteRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T14:35:02.221Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-15T14:35:02.221Z"
             }
           ]
         }

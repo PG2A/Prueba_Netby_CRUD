@@ -1,8 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Product } from 'src/app/demo/api/product';
 import { MessageService } from 'primeng/api';
-import { Table } from 'primeng/table';
-import { ProductService } from 'src/app/demo/service/product.service';
 import { TareaService } from 'src/app/demo/service/Tareas.service';
 import { TareasPendientes } from 'src/app/interfaces/TareasPendientes';
 import { catchError, throwError } from 'rxjs';
@@ -14,17 +11,9 @@ import { parseISO } from 'date-fns';
 })
 export class CrudComponent implements OnInit {
 
-    productDialog: boolean = false;
+    tareaDialog: boolean = false;
 
-    deleteProductDialog: boolean = false;
-
-    deleteProductsDialog: boolean = false;
-
-    products: Product[] = [];
-
-    product: Product = {};
-
-    selectedProducts: Product[] = [];
+    deleteTareaDialog: boolean = false;
 
     submitted: boolean = false;
 
@@ -45,13 +34,11 @@ export class CrudComponent implements OnInit {
     dateVencimiento: Date | null | undefined;
 
     constructor(
-        private productService: ProductService,
         private messageService: MessageService,
         private tareaService: TareaService
     ) { }
 
     ngOnInit() {
-        this.productService.getProducts().then(data => this.products = data);
 
         this.cols = [
             { field: 'Título', header: 'Título' },
@@ -78,32 +65,24 @@ export class CrudComponent implements OnInit {
     }
 
     openNew() {
-        this.product = {};
+        this.tarea = {} as TareasPendientes;
         this.submitted = false;
-        this.productDialog = true;
-    }
-
-    deleteSelectedProducts() {
-        this.deleteProductsDialog = true;
+        this.tareaDialog = true;
     }
 
     editProduct(tareaPendiente: TareasPendientes) {
         this.tarea = tareaPendiente;
         this.dateVencimiento = parseISO(tareaPendiente.FechaVencimiento)
         this.estado = tareaPendiente.Completada ? 'COMPLETA' : 'PENDIENTE';
-        this.productDialog = true;
+        this.tareaDialog = true;
     }
 
     deleteProduct(tareaPendiente: TareasPendientes) {
-        this.deleteProductDialog = true;
+        this.deleteTareaDialog = true;
         this.tarea = { ...tareaPendiente };
     }
 
     confirmDelete() {
-        // this.deleteProductDialog = false;
-        // this.products = this.products.filter(val => val.id !== this.product.id);
-        // this.messageService.add({ severity: 'success', summary: 'Successful', detail: 'Product Deleted', life: 3000 });
-        // this.product = {};
         this.tareaService.delete(this.tarea.Id)
             .pipe(
                 catchError((err) => {
@@ -112,8 +91,7 @@ export class CrudComponent implements OnInit {
                 })
             )
             .subscribe((res: any) => {
-                console.log(res)
-                this.deleteProductDialog = false;
+                this.deleteTareaDialog = false;
                 this.tareas = this.tareas.filter(f => f.Id !== this.tarea.Id);
                 this.tarea = {} as TareasPendientes;
                 this.dateVencimiento = null;
@@ -123,7 +101,7 @@ export class CrudComponent implements OnInit {
     }
 
     hideDialog() {
-        this.productDialog = false;
+        this.tareaDialog = false;
         this.submitted = false;
     }
 
@@ -151,10 +129,10 @@ export class CrudComponent implements OnInit {
                     })
                 )
                 .subscribe((res: any) => {
-                    console.log(res)
-                    this.productDialog = false;
+                    this.tareaDialog = false;
                     this.tarea = {} as TareasPendientes;
                     this.dateVencimiento = null;
+                    this.estado = '';
                     this.messageService.add({ severity: 'success', summary: 'Tarea actualizada!', detail: 'Tarea actualizada correctamente', life: 3000 });
                 })
         } 
@@ -178,39 +156,19 @@ export class CrudComponent implements OnInit {
                 )
                 .subscribe((res: any) => {
                     if (res) {
-                        nuevaTarea.Id = maxId.Id + 1;
+                        nuevaTarea.Id = maxId === undefined ? 1 : maxId.Id + 1;
                         nuevaTarea.FechaCreacion = nuevaTarea.FechaCreacion.substring(0,10);
                         nuevaTarea.FechaVencimiento = nuevaTarea.FechaVencimiento.substring(0,10);
                         this.tareas.push(nuevaTarea);
                         this.tareas = [...this.tareas]
-                        this.productDialog = false;
+                        this.tareaDialog = false;
                         this.tarea = {} as TareasPendientes;
                         this.dateVencimiento = null;
+                        this.estado = '';
                         this.messageService.add({ severity: 'success', summary: 'Tarea registrada!', detail: 'Tarea agregada correctamente', life: 3000 });
                     }
                 })
         }
         
-    }
-
-    findIndexById(id: string): number {
-        let index = -1;
-        for (let i = 0; i < this.products.length; i++) {
-            if (this.products[i].id === id) {
-                index = i;
-                break;
-            }
-        }
-
-        return index;
-    }
-
-    createId(): string {
-        let id = '';
-        const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
-        for (let i = 0; i < 5; i++) {
-            id += chars.charAt(Math.floor(Math.random() * chars.length));
-        }
-        return id;
     }
 }
