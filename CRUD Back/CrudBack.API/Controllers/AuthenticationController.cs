@@ -9,6 +9,8 @@ using System.Text;
 
 namespace CrudBack.API.Controllers
 {
+    [Route("api/authentication")]
+    [ApiController]
     public class AuthenticationController : ControllerBase
     {
         private readonly IUsuariosServices _usuarioServices;

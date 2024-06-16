@@ -15,3 +15,21 @@ G:\trabajo\netby\prueba\CrudBack.Business\obj\Debug\net8.0\CrudBack.Business.dll
 G:\trabajo\netby\prueba\CrudBack.Business\obj\Debug\net8.0\refint\CrudBack.Business.dll
 G:\trabajo\netby\prueba\CrudBack.Business\obj\Debug\net8.0\CrudBack.Business.pdb
 G:\trabajo\netby\prueba\CrudBack.Business\obj\Debug\net8.0\ref\CrudBack.Business.dll
+G:\trabajo\netby\Prueba\CRUD Back\CrudBack.Business\bin\Debug\net8.0\CrudBack.Business.deps.json
+G:\trabajo\netby\Prueba\CRUD Back\CrudBack.Business\bin\Debug\net8.0\CrudBack.Business.dll
+G:\trabajo\netby\Prueba\CRUD Back\CrudBack.Business\bin\Debug\net8.0\CrudBack.Business.pdb
+G:\trabajo\netby\Prueba\CRUD Back\CrudBack.Business\bin\Debug\net8.0\CrudBack.Dal.dll
+G:\trabajo\netby\Prueba\CRUD Back\CrudBack.Business\bin\Debug\net8.0\CrudBack.Models.dll
+G:\trabajo\netby\Prueba\CRUD Back\CrudBack.Business\bin\Debug\net8.0\CrudBack.Dal.pdb
+G:\trabajo\netby\Prueba\CRUD Back\CrudBack.Business\bin\Debug\net8.0\CrudBack.Models.pdb
+G:\trabajo\netby\Prueba\CRUD Back\CrudBack.Business\obj\Debug\net8.0\CrudBack.Business.csproj.AssemblyReference.cache
+G:\trabajo\netby\Prueba\CRUD Back\CrudBack.Business\obj\Debug\net8.0\CrudBack.Business.GeneratedMSBuildEditorConfig.editorconfig
+G:\trabajo\netby\Prueba\CRUD Back\CrudBack.Business\obj\Debug\net8.0\CrudBack.Business.AssemblyInfoInputs.cache
+G:\trabajo\netby\Prueba\CRUD Back\CrudBack.Business\obj\Debug\net8.0\CrudBack.Business.AssemblyInfo.cs
+G:\trabajo\netby\Prueba\CRUD Back\CrudBack.Business\obj\Debug\net8.0\CrudBack.Business.csproj.CoreCompileInputs.cache
+G:\trabajo\netby\Prueba\CRUD Back\CrudBack.Business\obj\Debug\net8.0\CrudBack.Business.sourcelink.json
+G:\trabajo\netby\Prueba\CRUD Back\CrudBack.Business\obj\Debug\net8.0\CrudBack.96C095F3.Up2Date
+G:\trabajo\netby\Prueba\CRUD Back\CrudBack.Business\obj\Debug\net8.0\CrudBack.Business.dll
+G:\trabajo\netby\Prueba\CRUD Back\CrudBack.Business\obj\Debug\net8.0\refint\CrudBack.Business.dll
+G:\trabajo\netby\Prueba\CRUD Back\CrudBack.Business\obj\Debug\net8.0\CrudBack.Business.pdb
+G:\trabajo\netby\Prueba\CRUD Back\CrudBack.Business\obj\Debug\net8.0\ref\CrudBack.Business.dll

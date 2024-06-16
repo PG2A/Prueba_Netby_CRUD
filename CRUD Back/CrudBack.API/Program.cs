@@ -10,6 +10,17 @@ using CrudBack.Business.Usuarios;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Comentar o eliminar la configuración de CORS
+// builder.Services.AddCors(options =>
+// {
+//     options.AddPolicy("AllowAnyOrigin", policy =>
+//     {
+//         policy.AllowAnyOrigin()
+//               .AllowAnyHeader()
+//               .AllowAnyMethod();
+//     });
+// });
+
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -51,11 +62,11 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+// Desactivar CORS - permitir cualquier origen, cualquier método y cualquier encabezado
+app.UseCors(builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+
 app.UseAuthentication();
-
 app.UseAuthorization();
-
-app.UseCors(c => c.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin());
 
 app.MapControllers();
 
